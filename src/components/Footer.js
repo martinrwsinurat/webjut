@@ -26,7 +26,7 @@ export const Footer = () => {
                               <img src={navIcon3} alt="GitHub" />
                             </a>
                           </div>
-            <p>© 2024 Martin Rizki Wendi Sinurat</p>
+            <p>© 152023152 Martin Rizki Wendi Sinurat</p>
           </Col>
         </Row>
       </Container>
