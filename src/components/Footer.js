@@ -1,9 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm"; //props (pemanggilan komponen child: MailchimpForm)
+import { MailchimpForm } from "./MailchimpForm"; // props (pemanggilan komponen child: MailchimpForm)
 import logo from "../assets/img/martin.jpg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon1 from "../assets/img/nav-icon1.svg"; // Instagram icon
+import navIcon2 from "../assets/img/nav-icon2.svg"; // LinkedIn icon
+import navIcon3 from "../assets/img/nav-icon3.svg"; // GitHub icon
 
 export const Footer = () => {
   return (
@@ -16,11 +16,17 @@ export const Footer = () => {
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
-            </div>
-            <p>Copyright 152023152 Martin Rizki Wendi Sinurat </p>
+                            <a href="https://www.instagram.com/martinrws_20?igsh=MWc4ODNtN2RuYTRxcA==" target="_blank" rel="noopener noreferrer">
+                              <img src={navIcon1} alt="Instagram" />
+                            </a>
+                            <a href="https://id.linkedin.com/in/martin-rizki-wendi-55443a234" target="_blank" rel="noopener noreferrer">
+                              <img src={navIcon2} alt="LinkedIn" />
+                            </a>
+                            <a href="https://github.com/martinrwsinurat" target="_blank" rel="noopener noreferrer">
+                              <img src={navIcon3} alt="GitHub" />
+                            </a>
+                          </div>
+            <p>© 2024 Martin Rizki Wendi Sinurat</p>
           </Col>
         </Row>
       </Container>
